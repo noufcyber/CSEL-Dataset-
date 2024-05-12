@@ -22,6 +22,9 @@ These scripts will create the corresponding CSV files in the current directory.
 Ensure the fetched report CSV files are present in the same directory as Dataset_Creation.py.
 Run the script: Dataset_Creation.py
 This script will process the fetched reports, perform cleaning and labeling, and create the final CSEL dataset. The output dataset format and location might be defined within the script itself, so refer to its comments for details.
+The script utilizes the OpenAI API for specific tasks. To use this functionality, you'll need to provide your own OpenAI API key.
+Obtain your OpenAI API key from https://platform.openai.com/ and set it as an environment variable named OPENAI_API_KEY before running the script.
+
 
 
 
